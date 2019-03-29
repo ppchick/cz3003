@@ -259,6 +259,7 @@ fabric.properties
 # Sonarlint plugin
 
 ### VisualStudioCode ###
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -270,3 +271,5 @@ fabric.properties
 .history
 
 # End of https://www.gitignore.io/api/django,pycharm,intellij,visualstudiocode
+
+.DS_Store
