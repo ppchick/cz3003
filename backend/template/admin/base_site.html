@@ -16,12 +16,14 @@
           <a href="http://localhost:3000">View site</a> /
       {% endif %}
       
-      {% if user.has_usable_password %}
-      <a href="{% url 'admin:password_change' %}">Change password</a> /
-      {% endif %}
-      <a href="{% url 'admin:logout' %}">Log out</a>
+    
   {% endblock %}
 
 {% block extrastyle %}
   <link rel = "stylesheet" href = "{% static 'css/admin.css' %}">
+{% endblock  %}
+
+
+{% block  breadcrumbs%}
+  
 {% endblock  %}
